@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<head>
+    <title>UNF Computing Majors Diagrams</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@8.4.0/dist/mermaid.min.js"></script>
+    <div id="navbar">
+        <ul>
+            <li><a href="index.html">Computer Science</a></li>
+            <li><a href="iSci.html">Information Science</a></li>
+            <li><a href="iSys.html">Information Systems</a></li>
+            <li><a href="IT.html">Information Technology</a></li>
+            <li><a href="dataSci.html">Data Science</a></li>
+        </ul>
+    </div>
+    <div id="container" class="mermaid">
+        classDiagram
+class COP2220{
+  Programming I
+  C Language
+  Programming Fundamentals
+  (F, S, Su)
+  }
+
+  class CDA3100{
+    Computer Organization and Architecture
+
+    Assembly
+    Low-level programming
+    Processor Operations
+    (S)
+  }
+
+  class COP3503{
+  Programming II
+  Object Oriented Programming
+  Java Language
+  (F, S, Su)
+  }
+class COT3100{
+  Computational Structures
+  Fundamentals of Logic
+  Simple Algorithms
+  Number Theory
+  (F, S, Su)
+  }
+  class COT3210{
+  Theory of Computation
+  Fundamentals of Computer Logic
+  Classifications of Computing Machines
+  (F)
+  }
+    class COP4630{
+  Introduction to AI
+  Preference Logic
+  Graph theory
+  Uses stats
+  (S)
+  }
+  class COP3530{
+  Data Structures
+  Most important class
+  Exactly what it says on the tin
+  More Java
+  (F, S, Su)
+  }
+
+
+  
+  class CIS3253{
+  Legal & Ethical Issues in Computing
+  Ethics & Law
+  Writing
+  Online
+  (F, S, Su)
+  }
+
+  class COP3404{
+  Systems Software
+  Fundamentals of Systems
+  Low-level computing
+  (F)
+  }
+  class COP4620{
+  Construction of Language Translators
+  Compiler design
+  Lexical Analysis, Syntactic Anaylsis, Semantic Analysis
+  Code Generation
+  (S)
+  }
+  class COP4610{
+    Operating Systems
+    Exactly what it says on the tin
+    (S)
+  }
+  class COP3703{
+  Introduction to Databases
+  Database Design and Normalization
+  SQL
+  (F, S, Su)
+  }
+  class CEN4010{
+  Software Engineering
+  AGILE Project Management
+  Requirements Gathering
+  Group project
+  (S)
+  }
+  class COT4400{
+  Design & Analysis of Algorithms
+  Exactly what it says on the tin
+  Involves calculus
+  (F)
+  }
+  class CNT4504{
+  Computer Networks
+  Network Protocols
+  Client and Server-side computing
+  (F, S, Su)
+  }
+  
+
+  COT3100-->COT3210
+
+  COT3100-->COP3530
+
+  COT3210-->COP4620
+
+  COP2220-->COP3503
+
+  COP2220-->CIS3253
+
+  COP2220-->CDA3100
+
+  COP3503-->COP3404
+
+  COP3503-->CNT4504
+
+  COP3503-->COP3530
+
+  COP3503-->COP3703
+
+  CDA3100-->COP3404
+
+  COP3703-->CEN4010
+
+  COP3530-->CEN4010
+
+  COP3530-->COP4620
+
+  COP3530-->COT4400
+
+  COP3530-->COP4630
+
+  COP3530-->COP4610
+
+  COP3404-->COP4610
+
+ </div>
+</body>
