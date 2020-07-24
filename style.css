@@ -1,0 +1,9 @@
+li{
+    float: left;
+    margin: 10px;
+    list-style-type: square;
+    color: #8d40e6;
+}
+body{
+    background-color: #F7CAC9;
+}
